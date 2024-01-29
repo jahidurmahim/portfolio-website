@@ -1,0 +1,302 @@
+body {
+    background-color: #000!important;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+
+.thin-section {
+ 
+    background-image: radial-gradient(circle, #02c6c3, #2c466b 33%, rgba(0, 107, 255, 0));
+    margin: 5% auto;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    overflow: hidden;
+  
+  }
+  
+
+.main-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0;
+    color: #fff;;
+    margin-top: 5%;
+}
+
+.main-content-image {
+    width: 35%;
+    height: 100%;
+    padding: 0 50px;
+    
+}
+
+.main-content-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 30px;
+}
+
+.main-content-text {
+    width: 50%;
+    height: 100%;
+    padding: 0 50px;
+}
+
+.main-content-text img {
+    height: 100px;
+    width: auto;
+}
+
+.main-content-text h1 {
+    font-size: 4rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.main-content-text p {
+    font-size: 2rem;
+    font-weight: 100;
+    margin-bottom: 50px;
+}
+
+.main-content-text a {
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+   
+    color: #fff;
+    border: 1px solid #333;
+    padding: 20px 40px;
+    border-radius: 50px;
+    color: #333;
+    font-weight: 800;
+    transition: all 0.3s ease-in-out;
+    background-color: #ffb400;
+}
+
+.main-content-text a:hover {
+    background-color: #fff;
+    color: #333;
+}
+.yellow-highlight {
+    color: #ffb400;
+}
+
+
+
+.main-content-text ul {
+    list-style: none;
+    margin-bottom: 50px;
+}
+
+.main-content-text ul li {
+    font-size: 2rem;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+
+.mahim-experience {  
+    width: 80%;
+    height: 700px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-auto-columns: 1fr;
+    gap: 20px 20px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "mahim-experience-1 mahim-experience-2"
+      "mahim-experience-3 mahim-experience-4";
+  }
+
+  .mahim-sub-experience {
+    height: 500px;
+    background-color: none;
+  }
+
+  .mahim-sub-experience h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: #333;
+  }
+
+
+    .mahim-sub-experience p {
+        font-size: 2rem;
+        font-weight: 400;
+        margin-bottom: 50px;
+        color: #fff;
+    }
+  .mahim-experience-1 { grid-area: mahim-experience-1; }
+  
+  .mahim-experience-2 { grid-area: mahim-experience-2; }
+  
+  .mahim-experience-3 { grid-area: mahim-experience-3; }
+  
+  .mahim-experience-4 { grid-area: mahim-experience-4; }
+  
+
+  .photos {  
+    width: 60%;
+    height: 500px;
+    margin: 5% auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-auto-columns: 1fr;
+    gap: 30px 30px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "photo1 photo2 photo3"
+      "photo4 photo5 photo6";
+  }
+
+  .photo {
+    height: 400px;
+    background-color: #fff;
+    border-radius: 30px;
+  }
+  
+  .photo1 { 
+    background-image: url("images/1.jpg");
+    grid-area: photo1; }
+  
+  .photo2 { 
+    background-image: url("images/2.jpg");
+    grid-area: photo2; }
+  
+  .photo3 { 
+    background-image: url("images/3.jpg");
+    grid-area: photo3; }
+  
+  .photo4 { background-image: url("images/4.webp");
+    grid-area: photo4; }
+  
+  .photo5 { background-image: url("images/5.jpeg");
+    grid-area: photo5; }
+  
+  .photo6 { background-image: url("images/6.jpg");
+    grid-area: photo6; }
+  
+    .contact-form {
+        width: 80%;
+        height: 700px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 50px 0;
+        color: #fff;
+    }
+
+    .contact-form-text {
+        width: 50%;
+        height: 100%;
+        padding: 0 50px;
+    }
+
+    .contact-form-text h1 {
+        font-size: 4rem;
+        font-weight: 700;
+        margin-bottom: 20px;
+    }
+
+    .contact-form-text p {
+        font-size: 2rem;
+        font-weight: 400;
+        margin-bottom: 50px;
+    }
+
+    .contact-form-text i {
+        color: #ffb400;
+        margin-right: 10px;
+    }
+
+    .social-icons {
+        display: flex;
+        gap: 10px;
+    }
+
+    .social-icons a {
+        color: #fff;
+        font-size: 2rem;
+        transition: all 0.3s ease-in-out;
+        margin-right: 40px;
+    }
+
+    .contact-form-inputs {
+        width: 50%;
+        height: 100%;
+        padding: 0 50px;
+       
+    }
+
+    .contact-form-inputs input[type="text"],
+
+    .contact-form-inputs input[type="email"],
+
+    .contact-form-inputs input[type="submit"] {
+        width: 100%;
+        height: 50px;
+        margin-bottom: 20px;
+        border: none;
+        outline: none;
+        border-radius: 30px;
+        padding: 0 20px;
+        font-size: 2rem;
+        font-weight: 400;
+        background-color: #252525;
+    }
+
+    .contact-form-inputs textarea {
+        width: 100%;
+        height: 200px;
+        margin-bottom: 20px;
+        border: none;
+        outline: none;
+        border-radius: 5px;
+        padding: 20px;
+        font-size: 2rem;
+        font-weight: 400;
+        background-color: #252525;
+        border-radius: 30px;
+    }
+
+    .contact-form-inputs input[type="submit"] {
+        background-color: #ffb400;
+        color: #333;
+        font-size: 1rem;
+        font-weight: 700;
+        transition: all 0.3s ease-in-out;
+    }
+
+    .contact-form-inputs input[type="submit"]:hover {
+        background-color: #fff;
+        color: #333;
+    }
+
+    .contact-form-inputs input[type="submit"]:active {
+        background-color: #ffb400;
+        color: #333;
+    }
+
+    .contact-form-inputs input[type="submit"]:focus {
+        background-color: #ffb400;
+        color: #333;
+    }
+
+
+
